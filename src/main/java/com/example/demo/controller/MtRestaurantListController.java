@@ -22,7 +22,7 @@ public class MtRestaurantListController {
 	@PostMapping("/mt-show-search")
 	public String restaurantList(
 			@ModelAttribute MtRestaurantSearchForm form) {
-		return "restaurant-list"; 
+		return "mt-restaurant-list"; 
 	}
 	
 	/*--- 検索リクエスト -------------------------*/
@@ -36,7 +36,7 @@ public class MtRestaurantListController {
 		
 		model.addAttribute("restaurantList", list);
 		
-		return "restaurant-list"; // 上のHTMLファイル名と一致
+		return "mt-restaurant-list"; // 上のHTMLファイル名と一致
 	}
 
 }
