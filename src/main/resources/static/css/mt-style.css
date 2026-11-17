@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+	font-family: BIZ UDPゴシック;
+	background-color: peachpuff;
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+    color: black;
+}
+
+h2 {
+	font-size: 28px;
+	background-color: white;
+	color: black;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+/* 通常のボタン */
+.btn {
+	border: 2px solid blanchedalmond;
+	padding: 4px 20px;
+	font-size: 20px;
+	color: black;
+	cursor:pointer;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #fff;
+}
+
+/* コメント入力の幅 */
+input.comment {
+	width: 400px;
+}
+
+.error-msg {
+    color: red;
+}
